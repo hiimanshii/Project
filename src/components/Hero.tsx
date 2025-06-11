@@ -90,7 +90,7 @@ const Hero = () => {
               <div className="flex items-center justify-center gap-6 text-sm text-rose-600 elegant-text">
                 <div className="flex items-center gap-2">
                   <Heart className="text-rose-400" size={16} fill="currentColor" />
-                  <span>First Met: 2019</span>
+                  <span>First conversation: 2018</span>
                 </div>
                 <div className="w-px h-4 bg-rose-300"></div>
                 <div className="flex items-center gap-2">

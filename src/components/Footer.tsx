@@ -94,7 +94,7 @@ const Footer = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm elegant-text">
               <div className="flex items-center justify-center gap-2">
                 <Star className="text-yellow-200" size={16} fill="currentColor" />
-                <span>First talk: 2018</span>
+                <span>First conversation: 2018</span>
               </div>
               <div className="flex items-center justify-center gap-2">
                 <Heart className="text-rose-200" size={16} fill="currentColor" />
