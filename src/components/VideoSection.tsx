@@ -85,7 +85,7 @@ const VideoSection = () => {
               <div className="relative bg-black rounded-2xl overflow-hidden aspect-video shadow-2xl">
                 <video
                   key={currentVideo.file}
-                  src={`/Project/videos/${currentVideo.file}`}
+                  src={`/videos/${currentVideo.file}`}
                   controls
                   className="w-full h-full object-contain rounded-2xl bg-black"
                 />
@@ -115,7 +115,7 @@ const VideoSection = () => {
                     <div className="relative">
                       <div className="w-24 h-16 rounded-xl overflow-hidden shadow-lg border border-white/20 relative">
                         <img
-                          src={`/Project/thumbnails/${video.thumbnail}`}
+                          src={`/thumbnails/${video.thumbnail}`}
                           alt={video.title}
                           className="w-full h-full object-cover"
                         />

@@ -4,10 +4,10 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-   server: {
+  server: {
     port: 3000, 
   },
-  base: '/Project/',
+  base: '/', // Changed from '/Project/' to '/' for Netlify
   optimizeDeps: {
     exclude: ['lucide-react'],
   },

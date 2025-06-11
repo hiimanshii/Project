@@ -21,60 +21,60 @@ const PhotoGallery = () => {
     return () => observer.disconnect();
   }, []);
 
-  // Updated photos with romantic couple themes and correct timeline
+  // Updated photos with correct paths for Netlify
   const photos = [
     {
       id: 1,
-      src: '/Project/start1.jpeg',
+      src: '/start1.jpeg',
       caption: 'When We Started to talk',
       date: '2019',
       description: 'The beginning of our beautiful story'
     },
     {
       id: 2,
-      src:'/Project/start2.jpeg',
+      src: '/start2.jpeg',
       caption: 'When we met first time',
       date: '2020',
       description: 'The day that changed everything'
     },
     {
       id: 3,
-      src: '/Project/start3.jpeg',
+      src: '/start3.jpeg',
       caption: 'Moments That Made Us Closer',
       date: '2021',
       description: 'Learning, growing, and falling deeper in love'
     },
     {
       id: 4,
-      src: '/Project/start4.jpeg',
+      src: '/start4.jpeg',
       caption: 'Celebrating our day',
       date: '2022',
       description: 'Finding joy in simple togetherness'
     },
     {
       id: 5,
-      src: '/Project/start5.jpeg',
+      src: '/start5.jpeg',
       caption: 'Loving Through Every Mile',
       date: '2023',
       description: 'Our hearts aligned more than ever'
     },
     {
       id: 6,
-      src: '/Project/start6.jpeg',
+      src: '/start6.jpeg',
       caption: 'Growing Stronger',
       date: '2024',
       description: 'Every year more in love'
     },
     {
       id: 7,
-      src: '/Project/start7.jpeg',
+      src: '/start7.jpeg',
       caption: 'Present Day Love',
       date: '2025',
       description: 'Still writing our story'
     },
     {
       id: 8,
-      src: '/Project/start9.jpeg',
+      src: '/start9.jpeg',
       caption: 'Forever & Always',
       date: 'Endless',
       description: 'Looking forward to our future'
