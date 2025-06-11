@@ -5,9 +5,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
    server: {
-    port: 3000, // change to whatever you want
+    port: 3000, 
   },
-  base: '/hjs', // Replace with your GitHub repository name
+  base: '/Project/',
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
