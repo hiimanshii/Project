@@ -25,58 +25,58 @@ const PhotoGallery = () => {
   const photos = [
     {
       id: 1,
-      src: '/Project/Our.jpeg',
-      caption: 'When We First Met',
-      date: '2018',
+      src: '/Project/start1.jpeg',
+      caption: 'When We Started to talk',
+      date: '2019',
       description: 'The beginning of our beautiful story'
     },
     {
       id: 2,
-      src: 'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=800',
-      caption: 'Our First Official Date',
-      date: 'June 11, 2020',
+      src:'/Project/start2.jpeg',
+      caption: 'When we met first time',
+      date: '2020',
       description: 'The day that changed everything'
     },
     {
       id: 3,
-      src: 'https://images.pexels.com/photos/1024998/pexels-photo-1024998.jpeg?auto=compress&cs=tinysrgb&w=800',
-      caption: 'First Adventure Together',
-      date: '2020',
-      description: 'Exploring the world hand in hand'
+      src: '/Project/start3.jpeg',
+      caption: 'Moments That Made Us Closer',
+      date: '2021',
+      description: 'Learning, growing, and falling deeper in love'
     },
     {
       id: 4,
-      src: 'https://images.pexels.com/photos/1024999/pexels-photo-1024999.jpeg?auto=compress&cs=tinysrgb&w=800',
-      caption: 'Cozy Moments',
-      date: '2021',
+      src: '/Project/start4.jpeg',
+      caption: 'Celebrating our day',
+      date: '2022',
       description: 'Finding joy in simple togetherness'
     },
     {
       id: 5,
-      src: 'https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=800',
-      caption: 'Travel Adventures',
-      date: '2022',
-      description: 'Making memories around the world'
+      src: '/Project/start5.jpeg',
+      caption: 'Loving Through Every Mile',
+      date: '2023',
+      description: 'Our hearts aligned more than ever'
     },
     {
       id: 6,
-      src: 'https://images.pexels.com/photos/1024997/pexels-photo-1024997.jpeg?auto=compress&cs=tinysrgb&w=800',
+      src: '/Project/start6.jpeg',
       caption: 'Growing Stronger',
-      date: '2023',
+      date: '2024',
       description: 'Every year more in love'
     },
     {
       id: 7,
-      src: 'https://images.pexels.com/photos/1108103/pexels-photo-1108103.jpeg?auto=compress&cs=tinysrgb&w=800',
+      src: '/Project/start7.jpeg',
       caption: 'Present Day Love',
-      date: '2024',
+      date: '2025',
       description: 'Still writing our story'
     },
     {
       id: 8,
-      src: 'https://images.pexels.com/photos/1024996/pexels-photo-1024996.jpeg?auto=compress&cs=tinysrgb&w=800',
+      src: '/Project/start9.jpeg',
       caption: 'Forever & Always',
-      date: '2024',
+      date: 'Endless',
       description: 'Looking forward to our future'
     }
   ];
@@ -131,7 +131,7 @@ const PhotoGallery = () => {
                 <img
                   src={photo.src}
                   alt={photo.caption}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  className="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-700"
                 />
                 
                 {/* Overlay */}
@@ -173,15 +173,19 @@ const PhotoGallery = () => {
 
       {/* Enhanced Modal for enlarged photo view */}
       {selectedPhoto !== null && (
-        <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4">
-          <div className="relative max-w-5xl max-h-full">
-            {/* Close button */}
-            <button
-              className="absolute -top-12 right-0 text-white hover:text-rose-300 transition-colors duration-300 z-10"
-              onClick={() => setSelectedPhoto(null)}
-            >
-              <X size={32} />
-            </button>
+        <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
+          onClick={() => setSelectedPhoto(null)}
+        >
+          <button
+            className="absolute top-4 right-4 text-white hover:text-rose-300 transition-colors duration-300 z-20 bg-black/50 rounded-full p-1"
+            onClick={() => setSelectedPhoto(null)}
+          >
+            <X size={28} />
+          </button>
+          <div
+            className="relative max-w-5xl max-h-full"
+            onClick={(e) => e.stopPropagation()} // prevent image container from closing modal
+          >
 
             {/* Navigation buttons */}
             <button

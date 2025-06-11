@@ -59,7 +59,7 @@ const Hero = () => {
           {/* Main heading */}
           <div className={`mb-8 ${isVisible ? 'animate-fadeInUp' : 'opacity-0'}`} style={{ animationDelay: '0.2s' }}>
             <h1 className="text-7xl md:text-9xl font-bold bg-gradient-to-r from-rose-500 via-pink-500 to-orange-400 bg-clip-text text-transparent mb-4 leading-tight romantic-text">
-              5 Years
+              5 Years!
             </h1>
             <div className="flex items-center justify-center gap-4 mb-4">
               <div className="h-px bg-gradient-to-r from-transparent via-rose-300 to-transparent flex-1 max-w-32"></div>
@@ -85,14 +85,12 @@ const Hero = () => {
                 <Calendar className="text-rose-500" size={28} />
               </div>
               <p className="text-gray-700 text-lg leading-relaxed elegant-text mb-6">
-                From the moment we first met in 2018 to making it official on June 11, 2020, 
-                every day has been a new chapter in our incredible love story. This website is 
-                a celebration of our beautiful journey together and all the magical moments that make us... us.
+                June 11, 2020 — that’s the day we took a leap into love, and today marks five whole years of laughter, growth, late-night calls, and moments that have stitched us together. In a world full of fleeting attention, holding onto someone this long means everything.
               </p>
               <div className="flex items-center justify-center gap-6 text-sm text-rose-600 elegant-text">
                 <div className="flex items-center gap-2">
                   <Heart className="text-rose-400" size={16} fill="currentColor" />
-                  <span>First Met: 2018</span>
+                  <span>First Met: 2019</span>
                 </div>
                 <div className="w-px h-4 bg-rose-300"></div>
                 <div className="flex items-center gap-2">

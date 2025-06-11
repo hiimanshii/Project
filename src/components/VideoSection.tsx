@@ -53,7 +53,7 @@ const VideoSection = () => {
               </div>
               <p className="text-gray-700 mb-8 elegant-text leading-relaxed">
                 Our special anniversary compilation - five years of love, laughter, and unforgettable moments 
-                captured in this heartfelt video montage celebrating our beautiful journey together from 2018 to now.
+                captured in this heartfelt video montage celebrating our beautiful journey together from 2019 to now.
               </p>
               
               {/* Enhanced video placeholder */}
@@ -88,31 +88,7 @@ const VideoSection = () => {
               </div>
             </div>
 
-            {/* Upload instructions */}
-            <div className="glass-effect rounded-2xl p-6 shadow-lg border border-white/30">
-              <div className="flex items-center gap-3 mb-4">
-                <Upload className="text-pink-500" size={24} />
-                <h4 className="text-lg font-semibold text-rose-800 elegant-text">Video Upload Guidelines</h4>
-              </div>
-              <ul className="text-gray-700 space-y-2 text-sm elegant-text">
-                <li className="flex items-start gap-2">
-                  <span className="text-rose-400 mt-1">•</span>
-                  <span>Replace the placeholder with your actual anniversary video</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-rose-400 mt-1">•</span>
-                  <span>Supported formats: MP4, WebM, MOV for best compatibility</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-rose-400 mt-1">•</span>
-                  <span>Recommended resolution: 1920x1080 or higher for crisp quality</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-rose-400 mt-1">•</span>
-                  <span>Keep file size under 50MB for optimal loading performance</span>
-                </li>
-              </ul>
-            </div>
+           
           </div>
 
           {/* Video collection sidebar */}

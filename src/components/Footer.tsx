@@ -75,7 +75,7 @@ const Footer = () => {
               <Heart className="text-pink-200 animate-heartbeat" size={32} fill="currentColor" />
             </div>
             <p className="text-2xl opacity-90 mb-4 elegant-text">
-              To my incredible boyfriend - thank you for five amazing years
+              To my incredible Man - thank you for five amazing years
             </p>
             <p className="text-lg opacity-80 elegant-text max-w-2xl mx-auto leading-relaxed">
               From knowing each other since 2018 to officially being together since June 11, 2020, 
@@ -94,7 +94,7 @@ const Footer = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm elegant-text">
               <div className="flex items-center justify-center gap-2">
                 <Star className="text-yellow-200" size={16} fill="currentColor" />
-                <span>First Met: 2018</span>
+                <span>First talk: 2018</span>
               </div>
               <div className="flex items-center justify-center gap-2">
                 <Heart className="text-rose-200" size={16} fill="currentColor" />
@@ -102,13 +102,13 @@ const Footer = () => {
               </div>
               <div className="flex items-center justify-center gap-2">
                 <Sparkles className="text-pink-200" size={16} />
-                <span>5 Years Strong: 2024</span>
+                <span>5 Years Strong: 2025</span>
               </div>
             </div>
           </div>
 
           <div className="text-sm opacity-75 elegant-text">
-            <p>© 2024 • Our Beautiful Love Story • Forever & Always • Since 2018 💕</p>
+            <p>© 2025 • Our Beautiful Love Story • Forever & Always • Since 2019 💕</p>
           </div>
         </div>
       </div>

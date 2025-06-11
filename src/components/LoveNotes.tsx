@@ -41,7 +41,7 @@ const LoveNotes = () => {
     {
       message: "Five years ago, I found my person, my soulmate, my everything. Today, I'm still amazed by how perfectly we fit together, like two pieces of a puzzle meant to be one.",
       author: "Always & Forever Yours",
-      date: "June 11, 2024"
+      date: "June 11, 2020"
     },
     {
       message: "Every day with you feels like a new page in our beautiful love story. I can't wait to write more chapters, create more memories, and love you more deeply with each passing day.",
@@ -54,7 +54,7 @@ const LoveNotes = () => {
       date: "Every Single Day"
     },
     {
-      message: "Thank you for being my partner in crime, my best friend, my safe haven, and my greatest love all wrapped into one incredible person. You are my everything and more.",
+      message: "Thank you for being my partner , my best friend, my safe heaven, and my greatest love all wrapped into one incredible person. You are my everything and more.",
       author: "Eternally Grateful",
       date: "For 5 Beautiful Years"
     },
@@ -210,7 +210,7 @@ const LoveNotes = () => {
                 </li>
                 <li className="flex items-start gap-3">
                   <Sparkles className="text-pink-400 mt-1 flex-shrink-0" size={16} />
-                  <span>The way you make me laugh until my cheeks hurt</span>
+                  <span>The way you care for me</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Sparkles className="text-pink-400 mt-1 flex-shrink-0" size={16} />

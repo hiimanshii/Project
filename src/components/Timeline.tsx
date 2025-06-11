@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Heart, MapPin, Calendar, Star, Users, Home, Plane, Gift } from 'lucide-react';
+import { Heart, Calendar, Star, Users, Home, Plane, Gift, MessageCircle, Handshake, Smile } from 'lucide-react';
 
 const Timeline = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -22,10 +22,10 @@ const Timeline = () => {
 
   const milestones = [
     {
-      year: '2018',
-      title: 'We First Met',
-      description: 'The universe conspired to bring us together. From the moment our eyes met, we knew something magical was beginning.',
-      icon: Users,
+      year: '2019',
+      title: 'We First talked',
+      description: 'It all began with a simple conversation in 2019 — just words, yet they planted the seed of something truly beautiful.',
+      icon: MessageCircle,
       color: 'bg-gradient-to-r from-rose-400 to-pink-500',
       bgColor: 'from-rose-50 to-pink-50'
     },
@@ -38,39 +38,39 @@ const Timeline = () => {
       bgColor: 'from-pink-50 to-rose-50'
     },
     {
-      year: '2020',
-      title: 'First "I Love You"',
-      description: 'Under a canopy of stars, we whispered those three magical words that changed everything forever.',
-      icon: Star,
+      year: '2021',
+      title: 'Miles Yet Connected',
+      description: 'Though distance separated us, our connection only grew stronger. From good morning texts to late-night calls, we built something beautiful across the miles.',
+      icon: Calendar,
       color: 'bg-gradient-to-r from-rose-500 to-orange-400',
       bgColor: 'from-rose-50 to-orange-50'
     },
     {
-      year: '2021',
-      title: 'Moving In Together',
-      description: 'We created our first home together, where every corner holds a piece of our love and every room echoes with laughter.',
-      icon: Home,
+      year: '2022',
+      title: 'Together on Our Special Day',
+      description: 'For the first time, we celebrated our anniversary side by side — no screens, no distance. Just us, holding hands and hearts, cherishing what we built.',
+      icon: Smile,
       color: 'bg-gradient-to-r from-orange-400 to-pink-400',
       bgColor: 'from-orange-50 to-pink-50'
     },
     {
-      year: '2022',
-      title: 'Our First Big Adventure',
-      description: 'Exploring new places hand in hand, creating memories that would become the foundation of our shared dreams.',
-      icon: Plane,
+      year: '2023',
+      title: 'Met Again, Grew Again',
+      description: 'We reunited, laughed, cried, and grew through it all. Long distance tested us, but every call, visit, and argument brought us closer — stronger than ever.',
+      icon: Handshake,
       color: 'bg-gradient-to-r from-pink-400 to-rose-400',
       bgColor: 'from-pink-50 to-rose-50'
     },
     {
-      year: '2023',
+      year: '2024',
       title: 'Growing Stronger Together',
       description: 'Through every challenge and celebration, we discovered that together we can weather any storm and reach any height.',
-      icon: Heart,
+      icon: Star,
       color: 'bg-gradient-to-r from-rose-400 to-pink-600',
       bgColor: 'from-rose-50 to-pink-50'
     },
     {
-      year: '2024',
+      year: '2025',
       title: '5 Years of Pure Love!',
       description: 'Here we are, celebrating five incredible years of love, growth, and endless adventures. This is just the beginning of our forever.',
       icon: Gift,
