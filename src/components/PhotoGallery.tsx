@@ -25,7 +25,7 @@ const PhotoGallery = () => {
   const photos = [
     {
       id: 1,
-      src: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=800',
+      src: '/Project/Our.jpeg',
       caption: 'When We First Met',
       date: '2018',
       description: 'The beginning of our beautiful story'
