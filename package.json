@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://yourusername.github.io/anniversary-website",
+  "homepage": "https://hiimanshii.github.io/Project",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
